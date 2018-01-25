@@ -1,0 +1,71 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="main_icon">Resources/login/hall.ico</file>
+    </qresource>
+    <qresource prefix="/messagebox">
+        <file alias="close">Resources/frmmessagebox/close.png</file>
+        <file alias="question">Resources/frmmessagebox/question.png</file>
+        <file alias="update">Resources/frmmessagebox/update.png</file>
+        <file alias="fontawesome-webfont">Resources/frmmessagebox/fontawesome-webfont.ttf</file>
+        <file alias="error">Resources/frmmessagebox/error.png</file>
+        <file alias="info">Resources/frmmessagebox/info.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file alias="black">Resources/qss/black.css</file>
+        <file alias="blue">Resources/qss/blue.css</file>
+        <file alias="dev">Resources/qss/dev.css</file>
+        <file alias="gray">Resources/qss/gray.css</file>
+        <file alias="silvery">Resources/qss/silvery.css</file>
+        <file alias="white">Resources/qss/white.css</file>
+    </qresource>
+    <qresource prefix="/titleWidget">
+        <file alias="sys_close">Resources/sysbtn/close.png</file>
+        <file alias="sys_max">Resources/sysbtn/max.png</file>
+        <file alias="sys_min">Resources/sysbtn/min.png</file>
+        <file alias="sys_restore">Resources/sysbtn/restore.png</file>
+    </qresource>
+    <qresource prefix="/login">
+        <file alias="btn_accountsafe">Resources/login/user_btn/btn_accountsafe.bmp</file>
+        <file alias="btn_accountsafe_msg">Resources/login/user_btn/btn_accountsafe_msg.bmp</file>
+        <file alias="btn_im">Resources/login/user_btn/btn_im.bmp</file>
+        <file alias="btn_opennotify">Resources/login/user_btn/btn_opennotify.bmp</file>
+        <file alias="btn_opennotify_msg">Resources/login/user_btn/btn_opennotify_msg.bmp</file>
+        <file alias="btn_strongbox">Resources/login/user_btn/btn_strongbox.bmp</file>
+        <file alias="btn_strongbox_msg">Resources/login/user_btn/btn_strongbox_msg.bmp</file>
+        <file alias="btn_userlevel">Resources/login/user_btn/btn_userlevel.bmp</file>
+        <file alias="btn_userlevel_msg">Resources/login/user_btn/btn_userlevel_msg.bmp</file>
+        <file alias="goldingots">Resources/login/user_btn/goldingots.bmp</file>
+        <file alias="vip_icon">Resources/login/user_btn/vip_icon.png</file>
+    </qresource>
+    <qresource prefix="/avatar">
+        <file alias="avatar_0">Resources/login/avatar/0.png</file>
+        <file alias="avatar_1">Resources/login/avatar/1.png</file>
+        <file alias="avatar_2">Resources/login/avatar/2.png</file>
+        <file alias="avatar_3">Resources/login/avatar/3.png</file>
+        <file alias="avatar_4">Resources/login/avatar/4.png</file>
+        <file alias="avatar_5">Resources/login/avatar/5.png</file>
+        <file alias="avatar_6">Resources/login/avatar/6.png</file>
+        <file alias="avatar_7">Resources/login/avatar/7.png</file>
+        <file alias="avatar_8">Resources/login/avatar/8.png</file>
+        <file alias="avatar_9">Resources/login/avatar/9.png</file>
+        <file alias="avatar_10">Resources/login/avatar/10.png</file>
+        <file alias="avatar_11">Resources/login/avatar/11.png</file>
+        <file alias="avatar_12">Resources/login/avatar/12.png</file>
+        <file alias="avatar_13">Resources/login/avatar/13.png</file>
+        <file alias="avatar_14">Resources/login/avatar/14.png</file>
+        <file alias="avatar_15">Resources/login/avatar/15.png</file>
+        <file alias="avatar_16">Resources/login/avatar/16.png</file>
+        <file alias="avatar_17">Resources/login/avatar/17.png</file>
+        <file alias="avatar_18">Resources/login/avatar/18.png</file>
+        <file alias="avatar_19">Resources/login/avatar/19.png</file>
+    </qresource>
+    <qresource prefix="/winmain">
+        <file alias="extend">Resources/winmain/btn_extend.bmp</file>
+        <file alias="fillmoney">Resources/winmain/btn_fillmoney.bmp</file>
+        <file alias="tickets">Resources/winmain/btn_grab_tickets.bmp</file>
+        <file alias="mall">Resources/winmain/btn_mall.bmp</file>
+        <file alias="vip">Resources/winmain/btn_vip.bmp</file>
+        <file alias="webmain">Resources/winmain/btn_webmain.bmp</file>
+        <file alias="exchange">Resources/winmain/btn_exchange.bmp</file>
+    </qresource>
+</RCC>

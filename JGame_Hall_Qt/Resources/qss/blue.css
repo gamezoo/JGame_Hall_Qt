@@ -1,0 +1,352 @@
+QPalette{background:#33468D;}
+
+/* ----------------------------QComboBox start------#00468D------------------------*/
+QComboBox{
+border-radius:2px;
+border:1px solid gray;
+border-color:#1583DD;
+font: normal;
+font-size: 12px;
+color: gray;
+}
+
+QComboBox:hover{
+border-radius: 2px;
+border-width:1px;
+border-color:rgb(50, 180, 250);
+}
+
+QComboBox::down-arrow{
+image:url(:/trayicon/arrow_down);
+}
+QComboBox::drop-down{
+width:20px;
+border-left:1px solid gray;
+background:transparent;		/*transparent*/
+}
+QComboBox::drop-down:hover{
+border-left:1px solid lightgray;
+background:rgb(220, 240, 250); /*小箭头颜色*/
+}
+
+QComboBox{
+    border-radius:2px;
+    border:1px solid #1583DD; 
+    padding:2px;   
+}
+/*
+QAbstractItemView::item
+{
+	height:30px;
+	padding:5px;
+	min-height: 40px; 
+	min-width: 60px;
+}*/
+
+QComboBox#user_name_combo QAbstractItemView::item
+{
+	/*padding-top: 10px;*/
+	/*padding-bottom: 10px;*/
+	height:30px;
+	padding:5px;
+	min-height: 30px; 
+}
+
+QComboBox#user_name_combo{
+border-radius:2px;
+border:1px solid gray;
+border-color:#1583DD;
+font: bold Normal large "幼圆";/*Times New Roman*/
+font-size: 12px;
+color:#DEB887;
+padding:0px 0px 0px 5px; /*逆序*/
+background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #506B79,stop: 1.0 #0D95A6);/*qlineargradient(x1: 128, y1: 128, x2: 128, y2: 1, stop: 0 #506B79, stop: 0.4 #010101,stop: 0.5 #000101, stop: 1.0 #0D95A6);   */
+}
+
+QComboBox#user_name_combo QAbstractItemView    
+{
+	border: 1px solid #C0DCF2;   /*选中会有虚框，可以自已实现项代理，去除选中的focus效果*/
+	selection-background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #506B79,stop: 1.0 #0D95A6);   
+	background: qlineargradient(x1: 128, y1: 128, x2: 128, y2: 1, stop: 0 #506B79, stop: 0.4 #010101,stop: 0.5 #000101, stop: 1.0 #0D95A6);   
+	color:#C0DCF2;
+} 
+
+QComboBox#user_name_combo QAbstractItemView::item:hover
+{
+	min-height: 35px; 
+}
+
+/* ---------------------------------------------QComboBox end----------------------------------*/
+
+/* ---------------------------------------------QLabel ----------------------------------*/
+QLabel{
+color:#FFFFFF;
+font-size: 14px;
+}
+
+QLabel#info{
+color:#000000;
+font-size: 12px;
+font: solid Normal large "幼圆";/*Times New Roman*/
+}
+
+QLabel#userName{
+color:#000000;
+font-size: 12px;
+font: Bold Normal large "Times New Roman";
+/*letter-spacing:20px;word-spacing:20px;*/
+}
+
+QLabel#userLogo{
+border: 2px solid;
+border-color:#1583DD;
+}
+
+QLabel#version{
+color:#000000;
+font-size: 12px;
+font: solid Normal large "Times New Roman";
+word-spacing:20px;
+letter-spacing:20px;
+}
+
+
+/* ---------------------------------------------QToolTip ----------------------------------*/
+QToolTip{
+    font-size: 12px;
+    background:rgba(222,233,255,200);
+    color:#008B8B;
+    border:1px solid #C0DCF2;
+    border-width:1px;
+    border-radius:1px;
+    border-color:#1583DD;
+    font: solid Normal large "幼圆";/*Times New Roman*/
+    padding:0px;
+}
+
+/* ---------------------------------------------QLineEdit ----------------------------------*/
+QLineEdit{
+    width: 160px;
+    height: 20px;
+    border: 1px solid;
+    border-radius:2px;
+    border-color:#1583DD;
+    font: normal;
+    font-size: 12px;
+    color: gray;
+}
+
+QLineEdit[echoMode='2']{
+    lineedit-password-character: 9679;
+}
+
+QLineEdit:hover{
+    border-radius:2px;
+    border-width:1px;
+    border-color:rgb(50, 180, 250);
+}
+
+
+/* ---------------------------------------------QMenu ----------------------------------*/
+
+ QMenu {
+     background-color: blue;
+     margin: 0px; /* some spacing around the menu */
+     color:Yellow;
+     text-align:center;
+     font:bold;
+ }
+
+ QMenu::item {
+     padding: 2px 25px 2px 20px;
+     border: 1px solid transparent; /* reserve space for selection border */
+     min-width:55px;
+     max-width:55px;
+     min-height:40px;
+     text-align:center;
+ }
+
+ QMenu::item:selected {
+     border-color: darkblue;
+     background: rgba(100, 100, 100, 150);
+ }
+
+ QMenu::icon:checked { /* appearance of a 'checked' icon */
+     background: gray;
+     border: 1px inset gray;
+     position: absolute;
+     top: 1px;
+     right: 1px;
+     bottom: 1px;
+     left: 1px;
+ }
+
+
+ QMenu::separator {
+     height: 0px;
+     background: lightblue;
+     margin-left: 10px;
+     margin-right: 5px;
+ }
+
+ QMenu::indicator {
+     width: 130px;
+     height: 130px;
+ }
+
+ /* non-exclusive indicator = check box style indicator (see QActionGroup::setExclusive) */
+ QMenu::indicator:non-exclusive:unchecked {
+     image: url(:/menu/menu_bg);
+ }
+
+ QMenu::indicator:non-exclusive:unchecked:selected {
+     image: url(:/menu/menu_bg);
+ }
+
+ QMenu::indicator:non-exclusive:checked {
+     image: url(:/menu/menu_bg);
+ }
+
+ QMenu::indicator:non-exclusive:checked:selected {
+     image: url(:/menu/menu_bg);
+ }
+
+ /* exclusive indicator = radio button style indicator (see QActionGroup::setExclusive) */
+ QMenu::indicator:exclusive:unchecked {
+     image: url(:/menu/menu_bg);
+ }
+
+ QMenu::indicator:exclusive:unchecked:selected {
+     image: url(:/menu/menu_bg);
+ }
+
+ QMenu::indicator:exclusive:checked {
+     image: url(:/menu/menu_bg);
+ }
+
+ QMenu::indicator:exclusive:checked:selected {
+     image: url(:/menu/menu_bg);
+ }
+ 
+
+/*----------------------------------------scroll bar start------------------------------------------------*/
+QScrollBar:vertical{
+width:10px;
+background-color:rgba(0,0,0,0%);
+padding-top:10px;
+padding-bottom:10px;
+}
+
+QScrollBar:horizontal{
+height:10px;
+background-color:rgba(0,0,0,0%);
+padding-left:10px;
+padding-right:10px;
+}
+
+QScrollBar::handle:vertical,QScrollBar::handle:horizontal{
+width:10px;
+background:#00468D
+}
+
+QScrollBar::handle:vertical:hover,QScrollBar::handle:horizontal:hover{
+width:10px;
+/*background:#C0DEF6;*/
+background:#00468D
+}
+
+QScrollBar::add-line:vertical{
+height:10px;
+width:10px;
+subcontrol-position:bottom;
+subcontrol-origin:margin;
+border-image:url(:/scrollbar/add-line_vertical);
+background-color:#00468D;
+}
+
+QScrollBar::add-line:horizontal{
+height:10px;
+width:10px;
+subcontrol-position:right;
+subcontrol-origin:margin;
+border-image:url(:/scrollbar/add-line_horizontal);
+background-color:#00468D;
+}
+
+QScrollBar::sub-line:vertical{
+height:20px;
+width:10px;
+subcontrol-position:top;
+subcontrol-origin:margin;
+border-image:url(:/scrollbar/sub-line_vertical);
+background-color:#00468D;
+}
+
+QScrollBar::sub-line:horizontal{
+height:10px;
+width:10px;
+subcontrol-position:left;
+subcontrol-origin:margin;
+border-image:url(:/scrollbar/sub-line_horizontal);
+background-color:#00468D;
+}
+
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical,QScrollBar::add-page:horizontal,QScrollBar::sub-page:horizontal{
+width:10px;
+background:#DAEFFF;
+}
+
+/*---------------scroll bar end-----------------------*/
+
+/* ---------------------------------------------QGroupBox ----------------------------------*/
+QGroupBox#groupBoxShowVideo,QGroupBox#groupBoxMessage,QGroupBox#groupBoxInput,QGroupBox#groupBoxUpdate{
+border:0px;
+}
+
+/* ---------------------------------------------QPushButton ----------------------------------*/
+QPushButton#btnOk,QPushButton#btnCancel{
+border:0px;
+background:rgb(255,0,0);
+/*background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #DEF0FE,stop:1 #C0DEF6);*/
+font-size: 12px;
+color:rgb(200,155,5);
+}
+
+QPushButton#btnMenu_Close{
+border:0px;
+background-color:rgb(255,0,0);
+/*background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #DEF0FE,stop:1 #C0DEF6);*/
+font-size: 12px;
+color:rgb(200,155,5);
+}
+
+/*---------------QMenu#WhiteMenu-----------------------*/
+QMenu#WhiteMenu{
+color:black;
+background-color:white;
+font-size: 12px;
+padding:2px 1px 2px 1px;
+}
+
+QMenu#WhiteMenu::item{
+background-color:transparent;
+padding:10px 20px 10px 30px;
+}
+
+/*QMenu#WhiteMenu::indicator{
+width:13px;
+height:13px;
+}*/
+
+QMenu#WhiteMenu::item:selected{
+color:white;
+background:rgba(75,135,204,200);
+/*background:rgb(234, 243, 253);*/
+}
+
+QMenu#WhiteMenu::separator{
+height:1px;
+margin:2px 0px 2px 30px;
+background:#C0DCF2;
+}
+/*---------------QMenu#WhiteMenu-----------------------*/
