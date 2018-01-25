@@ -4,6 +4,8 @@
 # 不忘初心
 高仿 金游世界-大厅 www.51v.cn
 
+![](http://www.51v.cn/Files/New51v/top_move_img_1.png ) 
+
 这个工程其实始于2016年11月份，现在已经2018年1月份了，这期间一直没有时间做。
 金游大厅是用MFC实现的UI，界面在90年代算的上一流，十几年过去了，
 UI更新换代，学过DirectUI, DUILib, SOUI，Qt, WinForm, 学来学去，越学越忘，没有什么成就感。
