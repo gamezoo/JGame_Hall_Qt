@@ -1,7 +1,7 @@
 output/*
 bin/*/*.pdb
 bin/*/*.ilk
-*.ncb
+bin/Debug/*
 *.suo
 *.suo
 *.suo
