@@ -33,19 +33,19 @@ void QFourStateButton::paintEvent(QPaintEvent *pEvent)
 	switch(m_state)
 	{
 	case Normal:
-		source.setRect(m_size.width() * 0, 0, m_size.width(), m_size.height());
+		source.setRect(m_size.width() * PART_ONE, 0, m_size.width(), m_size.height());
 		painter.drawPixmap(this->rect(), m_pix, source);
 		break;
 	case Hover:
-		source.setRect(m_size.width() * 1, 0, m_size.width(), m_size.height());
+		source.setRect(m_size.width() * PART_TWO, 0, m_size.width(), m_size.height());
 		painter.drawPixmap(this->rect(), m_pix, source);
 		break;
 	case Pressed:
-		source.setRect(m_size.width() * 2, 0, m_size.width(), m_size.height());
+		source.setRect(m_size.width() * PART_THD, 0, m_size.width(), m_size.height());
 		painter.drawPixmap(this->rect(), m_pix, source);
 		break;
 	case Disable:
-		source.setRect(m_size.width() * 3, 0, m_size.width(), m_size.height());
+		source.setRect(m_size.width() * PART_FOR, 0, m_size.width(), m_size.height());
 		painter.drawPixmap(this->rect(), m_pix, source);
 		break;
 	default:

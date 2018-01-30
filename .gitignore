@@ -3,3 +3,5 @@ bin/*/*.pdb
 bin/*/*.ilk
 *.ncb
 *.suo
+*.suo
+*.suo

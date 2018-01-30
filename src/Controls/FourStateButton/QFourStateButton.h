@@ -13,7 +13,14 @@ class QFourStateButton : public QPushButton
 		Hover,			// 鼠标悬浮
 		Pressed,		// 鼠标按下
 		Disable,		// 不使能
-		MAX
+	};
+
+	enum DrawPart
+	{
+		PART_ONE = 0,
+		PART_TWO = 1,
+		PART_THD = 2,
+		PART_FOR = 3,
 	};
 
 public:
