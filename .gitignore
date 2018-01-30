@@ -1,7 +1,5 @@
 output/*
+bin/Debug/*
 bin/*/*.pdb
 bin/*/*.ilk
-bin/Debug/*
-*.suo
-*.suo
-*.suo
+JGame_Hall_Qt/GeneratedFiles/Debug/**
