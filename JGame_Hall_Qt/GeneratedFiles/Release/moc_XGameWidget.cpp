@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'XGameWidget.h'
 **
-** Created: Wed Jan 24 15:40:06 2018
+** Created: Tue Jan 30 08:53:35 2018
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
 **
 ** WARNING! All changes made in this file will be lost!

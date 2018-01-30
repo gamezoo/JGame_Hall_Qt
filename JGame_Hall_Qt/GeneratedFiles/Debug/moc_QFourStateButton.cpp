@@ -1,13 +1,13 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'QFourStateButton.h'
 **
-** Created: Wed Jan 24 14:39:14 2018
+** Created: Tue Jan 30 08:54:26 2018
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../QFourStateButton.h"
+#include "../../../src/Controls/FourStateButton/QFourStateButton.h"
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'QFourStateButton.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 63
