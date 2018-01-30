@@ -1,0 +1,3 @@
+[AppConfig]
+AppStyle=:/Resources/blue.css
+AppTitle=金游世界大厅-广州分站
