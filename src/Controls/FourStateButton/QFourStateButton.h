@@ -38,9 +38,7 @@ private:
 	QPixmap m_pix;
 	QString m_strPic;
 	QSize   m_size;
-
 	ButtonState m_state;
-	
 };
 
 #endif // QFOURSTATEBUTTON_H

@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'QFourStateButton.h'
 **
-** Created: Tue Jan 30 09:41:27 2018
+** Created: Tue Jan 30 09:46:02 2018
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
 **
 ** WARNING! All changes made in this file will be lost!
