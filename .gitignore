@@ -3,3 +3,4 @@ bin/Debug/*
 bin/*/*.pdb
 bin/*/*.ilk
 JGame_Hall_Qt/GeneratedFiles/Debug/**
+bin/Debug/JGame_Hall_Qt.exe
