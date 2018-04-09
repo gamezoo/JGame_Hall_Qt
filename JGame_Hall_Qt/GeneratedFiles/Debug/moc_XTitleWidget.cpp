@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'XTitleWidget.h'
 **
-** Created: Tue Jan 30 10:11:56 2018
+** Created: Tue Jan 30 10:17:55 2018
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
 **
 ** WARNING! All changes made in this file will be lost!

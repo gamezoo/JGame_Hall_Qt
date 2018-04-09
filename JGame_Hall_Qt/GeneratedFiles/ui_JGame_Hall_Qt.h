@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'JGame_Hall_Qt.ui'
 **
-** Created: Tue Jan 30 10:11:57 2018
+** Created: Tue Jan 30 10:17:56 2018
 **      by: Qt User Interface Compiler version 4.8.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
